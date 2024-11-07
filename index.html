@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="/Project-9_CurrencyConverter/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- part 1 -->
+        <h2>Currency Converter</h2>
+
+        <!-- part 2 -->
+        <form action="">
+    
+            <div class="amount"> <!-- part 2A -->
+                <p>Enter Amount</p> <!-- p intesd of lable bcz we want in verticle. -->
+                <input value="1" type="text">
+            </div>
+    
+            <div class="dropdown-Area"><!-- part 2B -->
+                <div class="from-area fromSelect">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt=""> <!-- ==========  flag API ============ -->
+                        <select name="from"> <!-- 📗🔖 to create dropdown in html we have select and option elements is used. -->
+                          <!-- <option value="USD" selected="selected">USD</option>         ---------📗🔖 dynamiclly added --------
+                          <option value="INR">INR</option>
+                          <option value="EUR">EUR</option>
+                          <option value="AUD">AUD</option> -->
+                        </select> 
+                    </div>
+                </div>
+                <i class="fa-solid fa-right-left"></i>
+                <div class="to-area toSelect">
+                    <p>To</p>
+                    <div class="select-container">
+                       <img src="https://flagsapi.com/IN/flat/64.png" alt="">    <!-- ==========  flag API ============ -->
+                        <select name="to"> <!-- to create dropdown in html we have select and option elements is used. -->
+                          <!-- <option value="USD">USD</option>                  // 📗🔖 dynamiclly added 
+                          <option value="INR" selected = "selected">INR</option>
+                          <option value="EUR">EUR</option>   //📗🔖 value attribute in the <option> element defines the value that will be sent to the server when the form is submitted. It represents the data associated with that particular option, which the server can use to process the user's selection.
+                          <option value="AUD">AUD</option> -->
+                        </select> 
+                    </div>
+                </div>
+            </div>
+            <div class="msg">1USD = 82INR</div>
+            <button>Get Exchnage Rate </button>
+        </form>
+
+    </div>
+
+
+    <script src="/Project-9_CurrencyConverter/codes.js"></script>
+    <script src="/Project-9_CurrencyConverter/script.js"></script>
+</body>
+</html>
