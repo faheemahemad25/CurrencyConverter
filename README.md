@@ -1,2 +1,3 @@
-# CurrencyConverter
-<h1>Good UI and rich Javascript</h1>
+<h2>Good UI and rich Javascript</h2>
+<br>
+<img src='currencyConverter.png'>
